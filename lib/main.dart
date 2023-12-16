@@ -70,10 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
       //switch between pages
       case 0:
         page = GeneratorPage();
-        break;
       case 1:
         page = FavoritesPage(); //will be favorites page
-        break;
       default:
         throw UnimplementedError('no widget for $selectedIndex');
     }
